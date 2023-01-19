@@ -1,0 +1,160 @@
+.header-container {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(-90deg, rgb(0, 255, 234), rgb(119, 0, 255));
+  display: flex;
+  align-items: center;
+}
+
+.header-container img {
+  height: 65%;
+  margin-right: 10%;
+}
+
+.header-container h1 {
+  color: #fff;
+  font-size: 2.6em;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+.header-container button {
+  font-size: 1em;
+  height: 60px;
+  width: 130px;
+  border: 3px solid transparent;
+  background-color: rgb(0, 255, 234);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.377) 10px 10px 10px;
+  position: absolute;
+  left: 10%;
+  top: 52%;
+  transition-duration: 0.5s;
+}
+
+.header-container button:hover {
+  border: 3px solid #fff;
+  background-color: rgb(119, 0, 255);
+  box-shadow: #fff 0px 0px 35px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1800px) {
+  .header-container h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .header-container h1 {
+    font-size: 2em;
+  }
+  .header-container img {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header-container h1 {
+    font-size: 1.8em;
+  }
+  .header-container img {
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header-container img {
+    height: 30%;
+  }
+  .header-container h1 {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header-container img {
+    display: none;
+  }
+  .header-container h1 {
+    font-size: 1.8em;
+  }
+  .header-container {
+    height: 40vh;
+  }
+  .header-container button {
+    top: 28%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-container h1 {
+    font-size: 1.4em;
+  }
+  .header-container button {
+    height: 50px;
+    width: 120px;
+    top: 22%;
+  }
+  .header-container {
+    height: 30vh;
+  }
+}
+
+.video-section {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10%;
+}
+
+.video {
+  height: 22em;
+  width: 35em;
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.video img {
+  height: 60%;
+}
+.video-section h3 {
+  text-align: center;
+  font-size: 1.4em;
+}
+.video-section h5 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.video-section h4 {
+  font-size: 1.3em;
+  text-align: center;
+  color: rgb(119, 0, 255);
+}
+
+.video-section span {
+  color: red;
+  text-decoration: line-through;
+}
+
+.video-section button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  width: 180px;
+  background: linear-gradient(45deg, rgb(119, 0, 255), rgb(0, 255, 234));
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1em;
+  transition-duration: 0.5s;
+}
+.video-section button:hover {
+  height: 50px;
+  width: 200px;
+}
